@@ -1,0 +1,10 @@
+howto build:
+
+copy oosplashkillerd.sh in /usr/sbin
+and
+copy oosplashkillerd.service in /lib/systemd/system
+or build an own startscript
+
+
+
+I hope the problem with libreoffice's oosplash will be solved soon because this project is just an ugly hack.

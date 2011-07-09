@@ -1,0 +1,10 @@
+[Unit]
+Description=oosplashkiller daemon
+
+[Service]
+Type=forking
+PIDFile=/var/run/oosplashkillerd.pid
+ExecStart=/usr/sbin/oosplashkillerd.sh
+
+[Install]
+WantedBy=multi-user.target
