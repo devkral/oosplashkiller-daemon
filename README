@@ -2,7 +2,7 @@ howto build:
 
 copy oosplashkillerd.sh in /usr/sbin
 and
-copy oosplashkillerd.service in /lib/systemd/system
+copy oosplashkillerd.service in /lib/systemd/system (systemd variant)
 or build an own startscript
 
 
