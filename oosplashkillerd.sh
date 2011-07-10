@@ -9,8 +9,7 @@ echo $$ > /var/run/oosplashkillerd.pid
 
 for (( ; ; ))
 do
-getps=$(ps -C oosplash.bin --format pid --no-heading)
-for i in $getps
+for i in $(pidof oosplash.bin)
 do
 kill $i
 done
