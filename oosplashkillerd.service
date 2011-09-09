@@ -2,7 +2,7 @@
 Description=oosplashkiller daemon
 
 [Service]
-Type=forking
+Type=simple
 PIDFile=/var/run/oosplashkillerd.pid
 ExecStart=/usr/sbin/oosplashkillerd.sh
 

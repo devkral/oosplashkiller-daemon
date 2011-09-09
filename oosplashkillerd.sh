@@ -1,11 +1,10 @@
 #!/bin/sh
 
-if [ "x$1" != "x--" ]; then
-$0 -- &> /dev/null &
-exit 0
-fi
-
-echo $$ > /var/run/oosplashkillerd.pid
+#if [ "x$1" != "x--" ]; then
+#$0 -- &> /dev/null &
+#exit 0
+#fi
+#echo $$ > /var/run/oosplashkillerd.pid
 
 for (( ; ; ))
 do
